@@ -7,7 +7,9 @@ export default function Navigation() {
     <>
       <div className="navbar">
         <div className="section">
-          <img src="src\assets\Logo.png" alt="Logo" id="logo" />
+          <Link to={``} style={{ textDecoration: "none" }}>
+            <img src="src\assets\Logo.png" alt="Logo" id="logo" />
+          </Link>
         </div>
 
         <div className="section">
