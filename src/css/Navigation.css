@@ -11,7 +11,9 @@
 
     display: grid;
     grid-template-columns: 2fr 1fr 2fr 2fr;
-    column-gap: 32px
+    column-gap: 32px;
+    z-index: 9;
+
 }
 
 .section {
