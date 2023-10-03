@@ -28,9 +28,6 @@ export default function Navigation() {
           </Link>
         </div>
         <div className="section" id="authen">
-          <div style={{ color: "#7357FF", backgroundColor: "#F9F8FF" }}>
-            Đăng kí
-          </div>
           <div style={{ color: "#FFFFFF", backgroundColor: "#7357FF" }}>
             Đăng nhập
           </div>

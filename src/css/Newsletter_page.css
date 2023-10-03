@@ -1,0 +1,85 @@
+#taonewsletter {
+    position: relative;
+
+    margin-top: 100px;
+}
+
+#taonewsletter img {
+    width: 100%;
+    height: 480px;
+    opacity: 0.3;
+    filter: blur(2px);
+}
+
+.newsletter_page_top_titlesection {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    padding-left: 100px;
+
+}
+
+
+
+.landing_newsletter_section_choosingbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 860px;
+    background-color: #ECECED;
+    border-radius: 10px;
+
+
+    padding: 4px;
+    margin: 0 auto;
+    color: #8D8A95;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.choosingbar_title_newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    background-color: #ECECED;
+    border-radius: 10px;
+
+
+}
+
+#choosingbar_title_active {
+    background-color: white;
+    color: black;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+
+.landing_newsleter_content_template {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+    row-gap: 80px;
+    width: 100%;
+}
+
+.landing_newsletter_section_img_frame {
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    transition: transform .2s;
+}
+
+.landing_newsletter_section_img_frame:hover {
+    transform: scale(1.1);
+
+}
