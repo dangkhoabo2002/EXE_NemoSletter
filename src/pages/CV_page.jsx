@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/CV_page.css";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 
 export default function CV_page() {
   return (
@@ -117,6 +118,7 @@ export default function CV_page() {
           </Link>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

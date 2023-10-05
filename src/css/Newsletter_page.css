@@ -58,15 +58,16 @@
 
 
 
-.landing_newsleter_content_template {
+.landing_newsletter_section_img {
     display: flex;
-    flex-direction: row; 
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
     column-gap: 80px;
     row-gap: 80px;
-    width: 100%;
+
+
 }
 
 .landing_newsletter_section_img_frame {
@@ -77,6 +78,14 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
     transition: transform .2s;
+}
+
+.landing_newsletter_section_img_frame img {
+    width: 400px;
+    height: 300px;
+
+    object-fit: cover;
+    object-position: 0px 20px;
 }
 
 .landing_newsletter_section_img_frame:hover {

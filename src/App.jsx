@@ -17,7 +17,6 @@ function App() {
         <Route path="/mail" element={<Mail />}></Route>
         <Route path="/newsletter" element={<Newsletter />}></Route>
       </Routes>
-      <Footer />
     </div>
   );
 }

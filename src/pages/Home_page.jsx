@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/Home_page.css";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 export default function Home_page() {
   return (
     <>
@@ -26,7 +27,7 @@ export default function Home_page() {
             in ấn.
           </p>
           <div className="button" id="button_dangkyngay">
-            Đăng kí ngay
+            Truy cập ngay
           </div>
           <div className="landing_section_carousel "></div>
         </div>
@@ -146,6 +147,7 @@ export default function Home_page() {
           </Link>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
