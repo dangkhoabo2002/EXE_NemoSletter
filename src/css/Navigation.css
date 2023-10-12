@@ -71,3 +71,7 @@ input {
     border-radius: 8px;
     border: 1px solid #E2DCFF;
 }
+
+.section img {
+    margin-left: 94px;
+}

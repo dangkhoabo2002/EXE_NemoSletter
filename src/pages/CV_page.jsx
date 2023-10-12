@@ -107,7 +107,7 @@ export default function CV_page() {
               />
             </div>
           </div>
-          <Link to={`cv`} style={{ textDecoration: "none" }}>
+          <Link to={`cv_maker`} style={{ textDecoration: "none" }}>
             <div
               className="button"
               id="button_formore"

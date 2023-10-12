@@ -1,0 +1,23 @@
+.CVMaker_page_container {
+    padding: 50px;
+}
+
+.CVMaker_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+.CVMaker_card {
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+}
+
+.CVMaker_card img {
+    width: 200px;
+    object-fit: cover;
+    height: 16  0px;
+}

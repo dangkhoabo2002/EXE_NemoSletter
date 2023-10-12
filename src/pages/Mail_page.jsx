@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Mail_page.css";
+import { Link } from "react-router-dom";
 
 export default function Mail_page() {
   return (
